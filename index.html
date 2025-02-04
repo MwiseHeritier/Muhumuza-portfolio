@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+    </head>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        header{
+            text-align: center;
+            display: inline;
+            position: sticky;
+            top: 0; 
+            
+            
+            }
+            
+                
+            
+
+        .name{
+            
+            width: 50%;
+           
+            text-align: left;
+            
+           }
+        .header-container ul li{
+               width: 50%;
+               display: inline;
+               padding: 0px 10px;
+
+               }
+        .header-container ul li a{
+            text-decoration: none;
+             color: black;
+            
+             font-size: 20px;
+             
+            }
+        .part1{ 
+             display: inline-block;
+           
+            }
+
+        .all-container{
+            justify-content: space-evenly;
+            justify-content: space-around;
+        }
+
+        .section-2{
+               height: 80vh;
+              margin: 80px 0px;
+              display: flex;
+            
+
+        }
+        .image{
+            width: 45%;
+            justify-content: center;
+            display: flex;
+            margin-right: 0px 20px;
+            
+            
+          
+
+        }
+        .image img{
+            padding-right: 1px;
+            object-fit: cover;
+            border-radius: 50%;
+            
+        }
+        .content{
+            width: 55%;
+            text-align: justify;
+            
+            padding-right: 250px;
+            
+            
+            
+        }
+
+        .content-1 p{
+            
+            font-size: 20px;
+            color: gray;
+            font-weight: bold;
+            text-align: center;
+             
+        }
+        .content-1 h1{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin: 2px 0px;
+            
+        }
+        .content-1 h2{
+            color: rgb(109, 98, 98);
+            font-weight: bold;
+            text-align: center;
+            
+        }
+        .content-2{
+            text-align: center;
+            padding: 12px 13px;
+            
+        }
+        .buttons{
+            padding: 9px 13px;
+            margin: 5px;
+            border-radius: 25px;
+            cursor: pointer;
+            
+        }
+        .button-1{
+            border: 1px solid black;
+        }
+         .button-2{
+            background-color: rgb(43, 39, 39);
+            border: none;
+            color: white;
+         }
+         .icons{
+            display: flex;
+            justify-content: center;
+
+         }
+         .same{
+             text-align: center;
+             margin: 6px;
+            
+         }
+         .same img{
+            border-radius: 50%;
+            border: none;
+         }
+         .introduction{
+            margin: auto;
+         }
+         #about{
+            text-align: center;
+            height: 100vh;
+           
+         }
+         #about p{
+            font-size: 17px;
+            font-weight: bold;
+            color: gray;
+            
+         }
+         #about h1{
+            font-weight: bold;
+            font-size: 30px;
+         }
+         #about h3{
+            font-weight: bold;
+         }
+         .section-3{
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+         }
+         .photo{
+            width: 30%;
+           
+         }
+         .photo img{
+            border-radius: 50%;
+            align-items: last baseline;
+         }
+         .exp-education{
+            width: 70%;
+            
+         }
+         .div-1{
+            display: flex;
+         }
+         .div{
+            margin: 30px 20px;
+            border: 1px solid black;
+            width: 40%;
+            padding-top: 12px;
+            border-radius: 10px;
+         }
+         .project p{
+            text-align: left;
+            padding-left: 15px;
+         }
+         #footer-section{
+            text-align: center;
+         }
+         .footer-1 ul li{
+            display: inline;
+            padding: 0px 30px;
+            
+         }
+         .footer-1 ul li a{
+            text-decoration: none;
+             color: black;
+            font-size: 20px;
+            font-weight: bold;
+         }
+         .footer-2 p{
+            color: gray;
+            font-size: 17px;
+            font-weight: bold;
+         }
+
+         
+    </style>
+
+    <body>
+        <header>
+           
+            <div class="all-container">
+            <div class="name part1">
+                <h3>MUHUMUZA Jean Pierre</h3>
+            </div>
+            <div class="header-container part1">
+                <nav>
+                <ul>
+                    <li><a href="#home">About</a></li>
+                    <li><a href="#about">Experience</a></li>
+                    <li><a href="#about">Projects</a></li>
+                    <li><a href="#footer-section">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+        </header>
+        
+        <section id="home">
+            <div class="section-2">
+                <div class="image introduction">
+                    <img src="./Muhumuza.jpeg" height="400" width="400">
+
+                </div>
+                <div class="content introduction">
+                    <div class="content-1">
+                        <p>Hello I'm</p>
+                        <h1>MUHUMUZA Jean Pierre</h1>
+                        <h2>Fullstack Developer</h2>
+                    </div>
+                    <div class="content-2 ">
+                        <button class="button-1 buttons">Download CV</button>
+                        <button class="button-2  buttons">Contact Info</button>
+                    </div>
+                    <div class="icons">
+                        <div class="icon-1 same">
+                        <img src="./icon1.jpeg" width="30" height="30">
+                      </div>
+
+                      <div class="icon-2 same">
+                    <img src="./iconn.jpeg"  width="30" height="30">
+                </div>
+                </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section id="about">
+             <p>Get To Know More</p>
+             <h1>About Me</h1>
+            <div class="section-3">
+             <div class="photo ">
+                <img src="./Muhumuza.jpeg" width="480" height="400">
+             </div>
+             
+             <div class="exp-education ">
+                <div class="div-1">
+                <div class="experience div">
+                  <img src="./experience.jpeg" height="30" width="30">
+                  <h3>Experience</h3>
+                  <p>2.5+ years</p>
+                  <p>Fullstack Development</p>
+                </div>
+                <div class="education div">
+                    <img src="./education.jpeg" height="30" width="30">
+                    <h3>Education</h3>
+                    <p>B.Sc.Bachelors Degree in Software Engineering</p>
+
+                </div>
+            </div>
+                <div class="project ">
+                    <p>Proficient in front end technologies such as React.js and TypeScript and backend development 
+                        using Node.js,Express.js and Django. Experienced in database management with MySQL,PostgreSQL
+                        and MongoDB.He excels in crafting user friendly interfaces ,deploying on cloud platforms and 
+                        maintaining robust CI/CD pipelines.Passionate about empowering women in tech and applying
+                        innovative solutions across industries like education and agriculture.
+                    </p>
+                </div>
+
+             </div>
+            </div>
+        </section>
+
+
+        <footer id="footer-section">
+            
+            <div class="footer-container footer-1">
+                <nav>
+                <ul>
+                    <li><a href="#home">About</a></li>
+                    <li><a href="#about">Experience</a></li>
+                    <li><a href="#about">Projects</a></li>
+                    <li><a href="#footer-section">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div class="footer-container footer-2">
+                <p>Copyright &copy; 2024 MUHUMUZA Jean Pierre Right Reserved</p>
+            </div>
+        </div>
+
+        </footer>
+    </body>
+</html>
